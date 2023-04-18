@@ -1,0 +1,27 @@
+header{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.searchBox{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid darkgreen;
+    padding: 10px;
+}
+
+.weatherBox{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orangered;
+    padding: 10px;
+}
